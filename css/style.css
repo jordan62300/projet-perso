@@ -5,7 +5,7 @@
 
 body{
     background-color:#F4A460;
-    
+
     min-width: 100%;
 }
 
@@ -24,24 +24,27 @@ body{
 
 .menu{
     border: 4px outset white;
-    
+
     display:flex;
     flex-direction:row;
     padding: 15px 0px;
     justify-content: center;
     margin: 6px ;
     background-color: rgb(0, 0, 0,0.8);
-    
+
 }
 
 .menu li {
-   
+
     margin: 3px 25px;
     border: 1px white solid;
     border-radius: 90px;
     padding: 8px;
     text-align: center;
     list-style: none;
+}
+.current{
+ color:#F4A460;
 }
 
 .menu li a:hover{
@@ -52,7 +55,7 @@ body{
     font-weight: bold;
     text-decoration: none;
         text-transform: none;
-        color:white;
+        color:#fff;
 }
 
 .teste {
@@ -60,14 +63,17 @@ body{
     justify-content: end;
     margin-left:90px;
     text-align: center;
-    
+
 
 }
+
+
+
 
 @media screen and (max-width:1000px){
     .menu{
         flex-direction: column;
-        wrap:wrap;   
+        wrap:wrap;
     }
 
     .menu li{
@@ -82,29 +88,29 @@ body{
 #slider {
      margin-top:5%;
      margin-left:30%;
-     width: 80%; 
-     max-width: 600px; 
+     width: 80%;
+     max-width: 600px;
      overflow: hidden;
      border: 2px solid red;
 
-    } 
-    
+    }
+
     #slider figure {
-        
-        position: relative; 
+
+        position: relative;
         width: 500%;
         margin: 0;
         padding: 0;
         font-size: 0;
-        
+
         left: 0;
         animation: 30s slidy infinite;
       }
 
       #slider figure img {
-           width: 20%; 
-           height: auto; 
-           
+           width: 20%;
+           height: auto;
+
         }
 
         @keyframes slidy {
@@ -131,8 +137,8 @@ body{
 .container{
     display:grid;
     grid-template-columns: 10% 1fr  30% 10%;
-    
-    
+
+
     height: auto;
 }
 
@@ -145,7 +151,7 @@ body{
     background: #F4A460;;
     text-align: center;
     margin-top: 15px;
-    
+
 }
 
 .contenue{
@@ -155,7 +161,7 @@ body{
 }
 
 .contenue a {
-   
+
         text-decoration: none;
         text-transform: none;
         color:white;
@@ -182,12 +188,12 @@ cursor: pointer;
         display:initial;
         visibility: visible;
         grid-column-start : 3 ;
-        grid-column-end: 4 ; 
+        grid-column-end: 4 ;
         background-color: #e0e0dc;
         padding: 10px;
         margin-top:28px;
         margin-left:15px;
-       
+
     }
    .container{
        margin-top:12px;
@@ -195,12 +201,12 @@ cursor: pointer;
    }
    .main{
        display:grid;
-       grid-template-columns: 1fr 1fr; 
+       grid-template-columns: 1fr 1fr;
        grid-template-rows: 1fr  ;
        grid-column-start: 2;
        grid-column-end: 3 ;
        grid-row-start:1;
-       grid-row-end:2; 
+       grid-row-end:2;
   }
  .lastArticle{
      color:grey;
@@ -218,7 +224,7 @@ cursor: pointer;
 
  .contenueArticle li a{
      padding:8px;
-     
+
  }
 .lastCommentaire {
     margin-top:45px;
