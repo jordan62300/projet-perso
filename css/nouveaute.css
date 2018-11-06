@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:#F4A460;
+    
+    min-width: 100%;
+}
+
+
+
+
+
+
+.logo {
+    display:flex;
+    justify-content:center;
+}
+/* menu */
+
+
+
+.menu{
+    border: 4px outset white;
+    
+    display:flex;
+    flex-direction:row;
+    padding: 15px 0px;
+    justify-content: center;
+    margin: 6px ;
+    background-color: rgb(0, 0, 0,0.8);
+    
+}
+
+.menu li {
+   
+    margin: 3px 25px;
+    border: 1px white solid;
+    border-radius: 90px;
+    padding: 8px;
+    text-align: center;
+    list-style: none;
+}
+
+.menu li a:hover{
+    color:#F4A460;
+}
+
+.menu li a {
+    font-weight: bold;
+    text-decoration: none;
+        text-transform: none;
+        color:white;
+}
+
+.teste {
+    display : flex;
+    justify-content: end;
+    margin-left:90px;
+    
+
+}
+
+@media screen and (max-width:1000px){
+    .menu{
+        display:flex;
+        flex-direction: column;
+          
+    }
+
+    .menu li{
+        margin-top:6px;
+    }
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 10% 1fr  30% 10%;
+    
+    
+    height: auto;
+}
+
+
+
+
+.main{
+    grid-column-start: 2;
+    grid-column-end:4;
+    background: #F4A460;;
+    text-align: center;
+    margin-top: 15px;
+    
+}
+
+.contenue{
+    background-color: #e0e0dc;
+    padding: 10px;
+    margin-top:10px;
+}
+
+.contenue a {
+   
+        text-decoration: none;
+        text-transform: none;
+        color:white;
+}
+
+.savoirplusaccueil{
+background-color: #da4444;
+margin:10px;
+border-radius: 5px;
+color: #fff;
+font-size: 14px;
+font-weight: bold;
+padding: 5px;
+cursor: pointer;
+}
+
+@media(max-width:1000px) {
+    .main {
+        grid-column-start: 1;
+        grid-column-end:5;
+
+    }
+}
+
+/* Footer */
+
+.footer{
+    background-color:rgb(0,0,0,0.7);
+    margin-top: 6px;
+    padding:9px;
+}
+.titrefooter{
+ text-align: center;
+ color:grey;
+ font-weight: bold;
+}
+.contenufooter{
+    display:flex;
+    font-size:0.8em;
+    justify-content: center;
+    margin:15px;
+
+}
+.contenufooter .icone{
+    margin-left:50px;
+
+}
