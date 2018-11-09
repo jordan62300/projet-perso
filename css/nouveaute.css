@@ -98,9 +98,10 @@ body{
 }
 
 .contenue{
-    background-color: #e0e0dc;
+    background-color: grey;
     padding: 10px;
     margin-top:10px;
+    border-radius:10px;
 }
 
 .contenue a {
