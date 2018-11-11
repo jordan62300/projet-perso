@@ -73,7 +73,7 @@ body{
 @media screen and (max-width:1000px){
     .menu{
         flex-direction: column;
-        wrap:wrap;
+        
     }
 
     .menu li{
