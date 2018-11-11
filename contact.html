@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link href="css/contact.css" type="text/css" rel="stylesheet">
+    <link href="font/Dosis/Dosis-SemiBold.ttf" rel="stylesheet"/>
 </head>
 <body>
         <div class="logo-sm">
@@ -27,6 +28,33 @@
         </ul>
         
     </nav>
-    
+    <div class="contact">
+            <h1 class="contactTitre">Nous contacter</h1>
+            <p class="paraUn">Des questions ? Des remarques ? Des insultes ? </p>
+            <p class="paraDeux">Envoyez nous ce que vous pensez grace au formulaire ci dessous :</p></p>
+        </div>
+        <div class="formulaire">
+           
+                <form action="/ma-page-de-traitement" method="post">
+                    <div>
+                        
+                        <input type="text" class="name" name="user_name" placeholder="Nom *" required>
+                    </div>
+                    <div>
+                       
+                        <input type="email" class="mail" name="user_mail" placeholder="EMail *" required>
+                    </div>
+                    <div>
+                    
+                        <textarea class="msg" name="user_message" placeholder="Ecrivez votre message *" required></textarea>
+                    </div>
+                </form>
+                <button type="submit">Submite</button>
+        </div>
+        <p class="obligatoire"> * : champ obligatoire</p>
+        <div>
+            <footer>
+
+                    
 </body>
 </html>

@@ -77,6 +77,8 @@ body{
     }
 }
 
+/* contenue */
+
 .container{
     display:grid;
     grid-template-columns: 10% 1fr  30% 10%;
