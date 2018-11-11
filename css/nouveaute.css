@@ -169,7 +169,7 @@ cursor: pointer;
 
 .footer{
     background-color:rgb(0,0,0,0.7);
-    margin-top: 6px;
+    
     padding:9px;
 }
 .titrefooter{
@@ -187,4 +187,21 @@ cursor: pointer;
 .contenufooter .icone{
     margin-left:50px;
 
+}
+
+.lienfooter{
+    border-top: black dashed 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.lienfooter a{
+    margin:7px;
+    font-weight: bold;
+    text-decoration: none;
+        text-transform: none;
+        color: grey;
 }
