@@ -201,3 +201,22 @@ cursor: pointer;
         color: grey;
 }
 
+.loggin{
+    border-top: black dashed 2px;
+    display:flex;
+    justify-content: center;
+    margin-top : 20px;
+}
+
+.loggin a{
+    margin: 20px 13px 0 0;
+    padding : 15px;
+    list-style: none;
+    text-transform: none;
+    text-decoration: none;
+    color: white;
+    border:solid 1px black;
+    border-radius: 8px;
+    background-color: #da4444
+}
+
