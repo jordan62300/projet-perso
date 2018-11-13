@@ -131,6 +131,12 @@ body{
     border-radius: 10px;
     box-shadow: 4px 3px 3px black;
 }
+.contenue a {
+
+    text-decoration: none;
+    text-transform: none;
+    color:white;
+}
 .contenuedeux{
     grid-column-start:3;
     grid-column-end:5;
@@ -142,6 +148,14 @@ body{
     border-radius: 10px;
     box-shadow: 4px 3px 3px black;
 }
+.contenuedeux a{
+    
+
+        text-decoration: none;
+        text-transform: none;
+        color:white;
+    }
+
 .contenuetrois{
     grid-column-start:1;
     grid-column-end:3;
@@ -153,6 +167,13 @@ body{
     border-radius: 10px;
     box-shadow: 4px 3px 3px black;
 }
+.contenuetrois a{
+    
+
+    text-decoration: none;
+    text-transform: none;
+    color:white;
+}
 .contenuequatre{
     grid-column-start:3;
     grid-column-end:5;
@@ -163,6 +184,11 @@ body{
     margin:10px;
     border-radius: 10px;
     box-shadow: 4px 3px 3px black;
+}
+.contenuequatre a{
+    text-decoration: none;
+    text-transform: none;
+    color:white;
 }
 .contenuecinq{
     grid-column-start:1;
@@ -176,6 +202,32 @@ body{
     box-shadow: 4px 3px 3px black;
     
 }
+.contenuecinq a{
+    text-decoration: none;
+    text-transform: none;
+    color:white;
+}
+
+.savoirplusaccueil{
+    background-color: #da4444;
+    margin:10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+        text-transform: none;
+    }
+
+    .savoirplusaccueil a{
+        list-style: none;
+        text-decoration: none;
+        text-transform: none;
+    }
 
 @media screen and (max-width:1000px){
     .contenue{
